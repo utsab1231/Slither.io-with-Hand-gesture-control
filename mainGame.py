@@ -30,7 +30,7 @@ class MainGame:
         self.window = pygame.display.set_mode(self.winsize)
         self.quit = False
         self.clock = pygame.time.Clock()
-        self.arr=["images/img2.png","images/black.png","images/1.png"]
+        self.arr=["images/img2.png","images/black.png","images/1.png","images/nepal.png"]
         self.player_body=random.choice(self.arr)
         self.camera = Camera(PLAYER_START_X, PLAYER_START_Y, (START_W, START_H), self.winsize)
 
